@@ -1,0 +1,226 @@
+body{
+    margin:0px;
+}
+#left{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    overflow: scroll;
+}
+#logo{
+    width:400px;
+    height:50px;
+    display: flex;
+    padding: 10px;   
+}
+#fa-brands.fa-spotify.fa-3x{
+    float:left;
+    width: 25px;
+}
+#Spotify{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: medium;
+    color: hsl(0, 0%, 80%);
+}
+#sidebar{
+    list-style-type: none;
+    position: relative;
+    font-size: 20px;
+}
+.side{
+    padding:10px;
+    color: hsl(0, 0%, 70%);
+}
+.side:hover{
+    background-color: hsl(0, 0%, 15%);  
+}
+#main{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+#slika{
+width: 100%;
+height: 100%;
+position: absolute;
+top:0px;
+right:0px;
+ 
+background-color: rgb(0, 0, 0);
+}
+#naslov{    
+    height: 81%;
+    width: 70%;
+    position:absolute;
+    bottom:0px;    
+}
+#artists{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    color:white;
+    padding-left: 100px;
+}
+#ime{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:3em;
+    color:white;
+    font-weight: 900;
+    padding-left: 100px;
+}
+#buttonsplace{
+    height:35%;
+    width:75%;  
+    position:absolute;
+    left:100px;
+    display:flex;
+}
+#follow{
+    background-color: #1DB954;
+    width:125px;
+    height:50px;
+    text-align: center ;
+    position:relative;
+    border-radius: 3px;
+
+}
+#follow{
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+  color:black; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#secondText{
+    padding-left: 10px;
+    padding-top: 10px;
+    color:#1DB954;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar{
+    width:600px;
+    color:azure;
+    display:flex;
+    justify-content: space-between; 
+    padding-top: 75px;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#glavni{
+    border-bottom:3px solid #1DB954;
+}
+.ostali{
+    color: hsl(0, 0%,   55%);
+}
+#pop{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif; 
+       
+}
+#images{
+    width:200x;
+    height:300px;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slika{
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+#table{
+    width:1300px;
+    position: absolute;
+    left:0px;
+    color:white;
+    overflow: scroll;
+    
+}
+.tablerow{
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#rel{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 1100px; 
+}
+#nebitniNaslovi{
+    display:flex;
+}
+.relatedArtistsPng{
+    width:200x;
+    height:300px;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right:0px;
+}
+#leftPart{
+    width: 285px;
+    height: 85px;
+    right: 0px;
+    border-right: solid #606060;
+    display:flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 80%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 20px;
+    background-color: black;
+    border-top: 2px solid #606060;
+}
+#sve{
+    position: relative;
+}
+#down{
+    position: absolute;
+    display: flex;
+    bottom:0px;
+    width:100%;
+    background-color: rgb(50, 50, 50);
+}
+#pjesma{
+    height:75px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    top:3px;
+}
+#mainPart{
+    display:flex;
+}
+#podaciPjesme{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    left:10px;
+    bottom:5px;
+}
+#audio{
+    position:absolute;
+    left:1000px;
+    top:30px;
+}
+#naslovna{
+    background-color: aqua;
+    position:absolute;
+    height: 100px;
+    width: 100px;
+
+}
+
